@@ -48,7 +48,7 @@ const Form = ({ currentId, setCurrentId }) => {
   };
 
   return (
-    <Paper className={classes.paper}>
+    <Paper className={classes.paper} elevation={3}>
       <form
         autoComplete="off"
         noValidate
@@ -61,7 +61,7 @@ const Form = ({ currentId, setCurrentId }) => {
         <TextField
           name="creator"
           variant="outlined"
-          label="Creator"
+          label="Author"
           fullWidth
           value={postData.creator}
           onChange={(e) =>
