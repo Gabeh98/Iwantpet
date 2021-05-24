@@ -7,13 +7,14 @@ import useStyles from "./styles";
 import { createPost, updatePost } from "../../actions/posts";
 
 const Form = ({ currentId, setCurrentId }) => {
-  const [postData, setPostData] = useState({
+  const initialState = {
     creator: "",
     title: "",
     message: "",
     tags: "",
     selectedFile: "",
-  });
+  };
+  const [postData, setPostData] = useState(initialState);
   const post = useSelector((state) =>
     currentId ? state.posts.find((message) => message._id === currentId) : null
   );
@@ -37,7 +38,6 @@ const Form = ({ currentId, setCurrentId }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
     if (currentId === 0) {
       dispatch(createPost(postData));
       clear();
