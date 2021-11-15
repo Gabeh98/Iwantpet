@@ -2,6 +2,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 export default makeStyles((theme) => ({
   appBar: {
+    backgroundColor:'#d89197',
     borderRadius: 15,
     margin: "30px 0",
     display: "flex",
@@ -10,7 +11,7 @@ export default makeStyles((theme) => ({
     alignItems: "center",
   },
   heading: {
-    color: "black",
+    color: "#fff",
   },
   image: {
     marginLeft: "15px",
