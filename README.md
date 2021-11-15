@@ -1,4 +1,4 @@
-<h1 align="center">Social</h1>
+<h1 align="center">I want Pet</h1>
 Desenvolvi uma rede social simples usando a MERN stack. No Social você pode postar fotos curtir fotos e comentar, foi um ótimo trabalho de estudo onde aprendi a integrar diversas tecnologias e me organizar em um projeto consideravelmente grande.
 <h2 align="center" >Tecnologias usadas?</h2>
 As principais ferramentas que eu usei para desenvolver o social foi ReactJS :heart: e Redux como o front end; Express,Mongodb e nodejs como backend.
